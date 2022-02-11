@@ -5,14 +5,14 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .border {
-  border: 2px solid red; /* границы для блоков - убрать по окончанию вёрстки */
+  border: 1px solid red; /* границы для блоков - убрать по окончанию вёрстки */
 }
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px; /* выше установили ограничения для секции */
   position: relative;
-  display: flex;
+  display: flex; /* поработать над движениями при изменение экрана */
 }
 .header__logo_place_header {
   position: absolute;
@@ -60,7 +60,32 @@
   top: 64px;
   z-index: -1;
 }
-
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+.two-columns__paragrapf {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 500;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
 .header__square-pic {
   height: 568px;
