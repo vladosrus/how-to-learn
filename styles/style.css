@@ -28,7 +28,7 @@
 }
 .header__title {
   max-width: 730px;
-  margin-left: 64px;
+  margin: 0px 0px 0px 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
@@ -94,10 +94,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0 0 30px; 
+  margin: 0 0 30px;
 }
 .two-columns__paragraph:last-of-type {
-  margin-bottom: 0px;  
+  margin-bottom: 0px;
 }
 .two-columns__span-accent {
   line-height: 34px;
