@@ -1,7 +1,9 @@
-![CI/CD Actions](https://github.com/vladosrus/how-to-learn/actions/workflows/actions.yml/badge.svg?event=push)
+![CD Action](https://github.com/vladosrus/how-to-learn/actions/workflows/actions.yml/badge.svg?event=push)
+
 # Проект: «Научиться учиться»
 
 ### Описание проекта
+
 Этот проект является результатом моего первого знакомства с миром веб-разработки. В процессе работы над ним я изучил и практиковал основы HTML, CSS, зарегистрировался и научился создавать собственные репозитории в GitHub.
 
 Проект наполнен полезными материалами, содержащими различные техники и методы продуктивного обучения. Также размещены полезные видео и ссылки по теме.
@@ -12,4 +14,4 @@
 
 **GitHub Pages**
 
-* Посмотреть, как выглядит сайт можно [здесь](https://vladosrus.github.io/how-to-learn/)
+- Посмотреть, как выглядит сайт можно [здесь](https://vladislav-chikov-projects.ru/how-to-learn/)
