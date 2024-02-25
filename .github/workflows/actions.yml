@@ -34,4 +34,7 @@ jobs:
           chmod 600 "$HOME/.ssh/id_rsa"
 
       - name: Отправляем код на сервер
-        run: scp -i $HOME/.ssh/id_rsa -o StrictHostKeyChecking=no -r dist/* ${{ secrets.DEPLOY_SERVER_INFO }}
+        run: |
+          ls -la
+          pwd
+        # scp -i $HOME/.ssh/id_rsa -o StrictHostKeyChecking=no -r dist/* ${{ secrets.DEPLOY_SERVER_INFO }}
