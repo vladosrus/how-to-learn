@@ -1,3 +1,4 @@
+![CI/CD Actions](https://github.com/vladosrus/how-to-learn/actions/workflows/actions.yml/badge.svg?event=push)
 # Проект: «Научиться учиться»
 
 ### Описание проекта
